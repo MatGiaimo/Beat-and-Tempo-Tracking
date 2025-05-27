@@ -4,9 +4,11 @@ project(btt C)
 # Add source files
 set(BTT_SOURCES
     src/BTT.c
+    src/DFT.c
     src/STFT.c
     src/Filter.c
     src/Statistics.c
+    src/fastsin.c
 )
 
 # Create library
